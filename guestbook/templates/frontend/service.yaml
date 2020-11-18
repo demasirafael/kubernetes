@@ -13,9 +13,6 @@ spec:
   #type: LoadBalancer
   ports:
   - port: 80
-    targetPort: 8888
-    nodePort: 30000
-    protocol: TCP
   selector:
     app: guestbook
     tier: frontend
